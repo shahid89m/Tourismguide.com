@@ -1,0 +1,307 @@
+<html>
+<head>
+<style>
+
+
+
+
+
+
+
+
+
+
+input[type=text] {
+  
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+ background-color: white;
+
+cursor: pointer;
+color: black;
+transition: 0.2s all;
+  border-radius: 4px;
+}
+
+.in{
+  position: absolute;
+  left: -9999px;
+}
+
+
+
+
+
+input[type=radio]:checked + label>img {
+  border: 1px solid #fff;
+  box-shadow: 0 0 3px 3px #090;
+}
+
+
+
+
+
+
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+ color: black;
+  padding: 20px 42px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 6px 4px;
+}
+
+
+ .button:active {
+            transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+            /* Lowering the shadow */
+        }
+
+button:focus {
+  outline: 0; /* Removes the default blue ring */
+
+  /* Now, let's create our own focus style */
+  border-radius: 3px;
+  box-shadow: 0 0 0 2px red;
+}
+
+
+
+
+
+/* Stuff after this is only to make things more pretty */
+input[type=radio] + label>img {
+  width: 50px;
+  height: 50px;
+  transition: 500ms all;
+}
+
+input[type=radio]:checked + label>img {
+  transform: 
+    rotateZ(-10deg) 
+    rotateX(10deg);
+}
+<title> Form</title>
+</style>
+</head>
+
+<body bgcolor="Green">
+
+<p><a href="Tourism.html">HOME</a></p>
+<h1 style="text-align: center;"> <U> Feedback Forms</u></h1>
+
+<p style ="font-size:150%;" style="color:red">First name
+  <input type="text" name="fname"
+maxlength="30" /><br/>
+ </p>
+<p style ="font-size:150%;">Last name
+ <input type="text" name="lname"
+maxlength="30" />
+ </p>
+<p style ="font-size:150%;">E-mail
+  <input type="text" name=" E-mail" 
+  
+maxlength="30" /><br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </p>
+ <p style ="font-size:150%;">Feedback time</p>
+<textarea name="comments"cols="50" rows="5">Enter your feedback.....</textarea>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+ <p style ="font-size:150%;">Please select your feedback category below:</p>
+<button class=" button ">Suggestion</button>
+<button class=" button ">something is not quite right</button>
+<button class=" button  ">Compliment</button>
+
+
+
+
+
+</p>
+ <p style ="font-size:150%;">How likely are you recommend this website to your/family/friends?</p>
+
+<p> 
+<input type="radio" name="AppSource" value=1>1
+<input type="radio" name="AppSource" value=2>2
+<input type="radio" name="AppSource" value=3>3
+<input type="radio" name="AppSource" value=4>4
+<input type="radio" name="AppSource" value=5>5
+<input type="radio" name="AppSource" value=6>6
+<input type="radio" name="AppSource" value=7>7
+<input type="radio" name="AppSource" value=8>8
+<input type="radio" name="AppSource" value=9>9
+<input type="radio" name="AppSource" value=10>10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+
+<p style ="font-size:150%;"> We would like your feeedback to improve our website:</p>
+<p style ="font-size:150%;">What is your opinion of this page?</p>
+<input
+  type="radio" name="emotion" 
+  id="sad" class="in" />
+<label for="sad">
+  <img 
+    src="fl.PNG"
+    alt="I'm sad" />
+</label>
+
+<input 
+  type="radio" name="emotion" 
+  id="happy" class="in" />
+<label for="happy">
+  <img 
+    src="cf.PNG"
+    alt="I'm happy" />
+</label>
+
+<input 
+  type="radio" name="emotion"
+  id="netural" class="in" />
+<label for="netural">
+  <img 
+    src="ne.PNG"
+    alt="I'm netural" />
+</label>
+
+<input
+  type="radio" name="emotion"
+  id="smile" class="in" />
+<label for="smile">
+  <img 
+    src="stt.PNG"
+    alt="I 'm  smile" />
+</label>
+
+<input 
+  type="radio" name="emotion"
+  id="grinning" class="in" />
+
+<label for="grinning">
+  <img 
+    src="gr.PNG"
+    alt="I'm grinning" />
+<br/>
+<br/>
+<br/>
+
+
+
+
+
+
+
+
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+
+<a href="thank you.jpg" target="_blank"><button class="button submit">submit!</a> 
+</form>
+
+
+	
+	
+
+
+ 	
+	
+	
+	
+	
+	
+	
+	
+</style>
+</head>	
+</label>
+</form>
+
+
+
+
+
+
+
+
+	
+<style>
+
+body {
+  background-image: url('iimage.jpeg');
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
